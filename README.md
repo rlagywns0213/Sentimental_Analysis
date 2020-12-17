@@ -2,6 +2,19 @@
 
    - 네이버 영화평을 직접 크롤링하여 감정분석 진행
 
+
+           datasets
+           ├── 19년 시행착오
+           │   ├── Final
+           │   └── LSTM
+           │   └── US sklearn
+           │   └── Vectorization
+           │   └── 신의한수 sklearn
+           │       
+           └── Bert_Classification
+               ├── bert_classification.ipynb
+               └── best_train.csv
+               └── worst_train.csv
 ## Prerequisites
 
 - Python 3.6+
@@ -17,24 +30,9 @@
 - - 현재 인스타그램, 배달 앱, 쇼핑 앱 등 모든 정보들이 사람들에 의해 리뷰됨
 
     비정형 데이터 수집 및 공부 필요<br>
-     Beautifulsoup, selenium 라이브러리 활용한 비정형 데이터 수집 독학
+    Beautifulsoup, selenium 라이브러리 활용한 비정형 데이터 수집 독학
     -네이버 영화평을 직접 수집하여, 감정 분석 프로젝트
 
-
-
-
-    datasets
-    ├── 19년 시행착오
-    │   ├── Final
-    │   └── LSTM
-    │   └── US sklearn
-    │   └── Vectorization
-    │   └── 신의한수 sklearn
-    │       
-    └── Bert_Classification
-        ├── bert_classification.ipynb
-        └── best_train.csv
-        └── worst_train.csv
 
 ### 2. Data collection & Data Preprocessing
 
