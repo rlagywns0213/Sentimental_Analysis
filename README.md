@@ -22,6 +22,7 @@
 
 
 
+
     datasets
     ├── 19년 시행착오
     │   ├── Final
@@ -39,16 +40,26 @@
 
 - 네이버 영화평이 많은 Avengers 영화평 수집
 
-  ① 영화평 : Document , 별점 : label
+① 영화평 : Document , 별점 : label<br>
+
         - 별점 5점 이상 : 1 (긍정)
-        - 별점 5점 미만 : 0 (부정)
-  ② 데이터 수집 시, 최신 기준 크롤링
+        - 별점 5점 미만 : 0 (부정)<br>
+
+
+② 데이터 수집 시, 최신 기준 크롤링<br>
+
         - Training dataset = page 1 ~ page 5000의 리뷰 (50000개)
         - Test dataset = page 5001 ~ 6000의 리뷰 (10000개)
-  ③ Konlpy 패키지, nltk를 이용한 형태소 분석
-        - 불필요한 자주 나오는 형태소 제거(조사 등)
-  ④ 자주 사용되는 토큰을 CountVectorization<br>
-  ④ DNN 구조로 모델 구성
+③ Konlpy 패키지, nltk를 이용한 형태소 분석<br>
+
+
+        - 불필요한 자주 나오는 형태소 제거(조사 등)<br>
+
+
+④ 자주 사용되는 토큰을 CountVectorization<br>
+
+④ DNN 구조로 모델 구성<br>
+
         - 입력층, 은닉층 (‘relu’ 함수), 출력층 (‘Sigmoid’ 함수) 구조
 
 
