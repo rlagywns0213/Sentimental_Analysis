@@ -20,7 +20,6 @@
 - Python 3.6+
 - Tensorflow
 - Sklearn
-- Transformer_huggingface
 
 ## Process
 
